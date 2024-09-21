@@ -391,7 +391,6 @@ for run in range(run):
         plt.plot(ts1['vazao'], '.',markersize=5,linewidth=None, label='True')
         plt.title(Est)
         
-        # plt.savefig('/home/yulia/Documentos/yulia/Documentos/codigos/figuras_ests/'+Est+'.png', dpi=300,bbox_inches='tight', pad_inches=0)    
         plt.show()
         vazao = ts1['vazao'].values
  
